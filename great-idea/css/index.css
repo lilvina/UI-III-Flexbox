@@ -72,7 +72,7 @@ body {
 
 .navigation {
   width: 100%;
-  margin-bottom: 80%;
+  margin-bottom: 80px;
   display: flex;
   align-items: center;
 }
@@ -204,6 +204,12 @@ footer p {
   border-bottom: 2px;
 }
 
+.flex nav a {
+  margin: 10px;
+  color: gray;
+  text-decoration: none;
+}
+
 .service-2 h3 {
   font-size: 30px;
 }
@@ -286,6 +292,7 @@ footer p {
 .information ul li {
   font-size: 19px;
   line-height: 20px;
+  list-style-type: circle;
 }
 
 .bottom img{
